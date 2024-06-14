@@ -1,0 +1,20 @@
+(footprint "4POS_INTERFACE" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 955e8370-655a-410e-a5b2-3ecbc5c4f91b)
+  )
+  (fp_text value "4POS_INTERFACE" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f6426f52-b6c4-47ba-9149-3b9ce4f192d3)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 348f9221-635e-4cc3-838f-cf3a844f2d79)
+  )
+  (pad "1" thru_hole rect (at 0 0) (size 2.286 2.286) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 0aab98c6-c949-4ce0-a1d5-de37fb837060))
+  (pad "2" thru_hole rect (at 2.54 0) (size 2.286 2.286) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp ee773b1c-7927-4fdb-b785-8219ee82e5f8))
+  (pad "3" thru_hole rect (at 5.08 0) (size 2.286 2.286) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp f3725248-d5bd-4c9b-8643-b9bcea7042ce))
+  (pad "4" thru_hole rect (at 7.62 0) (size 2.286 2.286) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp a4a72ff6-aa72-40a4-a85b-c2b084e8d5ba))
+)
